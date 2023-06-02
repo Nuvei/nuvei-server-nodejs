@@ -1,0 +1,28 @@
+{
+  "name": "nuvei",
+  "version": "1.0.2",
+  "description": "Nuvei digital REST API wrapper for Nodejs",
+  "main": "lib/nuvei.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Nuvei",
+    "api",
+    "credit",
+    "cards",
+    "payment",
+    "processing",
+    "psp"
+  ],
+  "author": "Nuvei",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "ajv-i18n": "^4.2.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "request": "^2.88.2",
+    "uuid": "^8.3.2"
+  }
+}
